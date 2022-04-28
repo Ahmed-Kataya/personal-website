@@ -17,9 +17,6 @@
 }
 
 
-.skills{
-    height:100vh;
-}
 .item{
     display: flex;
     flex-direction: row;
@@ -60,5 +57,36 @@
     border-radius: 15px;
     margin: 20px;
     padding-bottom: 30px;
-    padding-top: 30px;
+}
+img{
+max-width: 100%;
+display: inline-block;
+height: auto;
+
+}
+.projectsContainer{
+    
+    max-width: 1100px;
+    margin: auto; 
+  
+}
+.projectsContent{
+    display: flex;
+    margin: 20px;
+}
+.projectsContent div{
+    width: 50%;
+    height: 500px;
+}
+.projectsContent img{
+    display: inline-block;
+    flex: 1;
+    
+}
+.projectsContent p{
+    display: inline-block;
+    flex: 1;
+}
+.projectsContent h2{
+    margin: 0;
 }
