@@ -6,6 +6,12 @@
 h1 ,h2 ,h3, h4,p{
     margin: 0;
 }
+a:active{
+    color: white;
+}
+a:visited {
+    color: white
+}
 body{
     margin: 0;
 }
@@ -13,6 +19,20 @@ body{
     color: #3a3a3a;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+.title:after {
+    content: '';
+    display: block;
+    background: #29ABE2;
+    width: 33px;
+    height: 3px;
+    margin: 16px auto 0;
+    position: relative;
+}
+.subtitle{
+    color: #444;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 .introContainer{
     
@@ -115,7 +135,25 @@ height: auto;
     margin: 0;
 }
 .contacts{
-    background-color: lemonchiffon;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.contacts a{
+    text-align: center;
+}
+.contacts svg{
+    width: 15px;
+    margin: 0;
+}
+.contacts *{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
 }
 .is-sliding-in{
     transform: translateY(160px);
@@ -132,6 +170,8 @@ height: auto;
     transform: translateY(0);
     opacity: 1;
   }
+
+
 @keyframes fadein {
     0% {opacity: 0;}
     100% {opacity: 1;}
