@@ -9,6 +9,11 @@ h1 ,h2 ,h3, h4,p{
 body{
     margin: 0;
 }
+.title{
+    color: #3a3a3a;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 .introContainer{
     
     max-width: 1100px;
@@ -19,9 +24,14 @@ body{
     background-image: linear-gradient(to bottom right,  #0a259c,#006ff9);
     color: white;
     height: 100vh;
+    text-align: left;
 
 }
+.introContainer h1{
+    font-size: 3rem;
+    padding-top: 100px;
 
+}
 
 .item{
     display: flex;
@@ -47,6 +57,7 @@ body{
 .item span{
     margin: 5px;
 }
+
 .skillsContainer{
     display: flex;
     max-width: 1100px;
@@ -69,6 +80,9 @@ max-width: 100%;
 display: inline-block;
 height: auto;
 
+}
+.projects{
+    margin-top: 100px;
 }
 .projectsContainer{
     
